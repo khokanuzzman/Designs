@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jotno Prescriptiopn Ui-2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="mb-4 navbar navbar-expand-lg navbar-expand-lg navbar-dark bg-dark border-0 shadow fixed-top">
+                    <a class="navbar-brand font-bold" href="#">Jotno</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSuapportedContent-4">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Contact <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-gear"></i> Settings</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Profile </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
+                                    <a class="dropdown-item" href="#">My account</a>
+                                    <a class="dropdown-item" href="#">Log out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <aside class="col-2 px-0 fixed-left left-sidebar" id="left">
+                <div class="w-100">
+                    <a href="#complaint">Complaint</a>
+                    <a href="#medication">Medication</a>
+                    <a href="#finding">Finding</a>
+                    <a href="#advice">Advice</a>
+                    <a href="#history">History</a>
+                    <a href="#investigation">Investigation</a>
+                    <a href="#followup">Followup</a>
+                    <a href="#diagnosis">Diagnosis</a>
+                    <a href="#referral">Referral</a>
+                </div>
+    
+            </aside>
+            <main class="col offset-2 h-100 col-xs-offset-right-2 mt-5">
+                <div class="row bg-white mt-5">
+                    <div class="col-12 pb-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <nav class="mb-4 navbar navbar-expand-lg navbar-dark bg-primary">
+                                    <a class="navbar-brand font-bold" href="#">Navbar</a>
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSuapportedContent-4">
+                                        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item active">
+                                                <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Contact <span class="sr-only">(current)</span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"><i class="fa fa-gear"></i> Settings</a>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Profile </a>
+                                                <div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
+                                                    <a class="dropdown-item" href="#">My account</a>
+                                                    <a class="dropdown-item" href="#">Log out</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <div id="btnContainer">
+                            <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
+                            <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+                          </div>
+                          <br>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="column" style="background-color:#aaa;" id="complaint">
+                                  <h2>Complaint</h2>
+                                  <p>Some text..</p>
+                                </div>
+                                <div class="column" style="background-color:#bbb;" id="medication">
+                                  <h2>Medication</h2>
+                                  <p>Some text..</p>
+                                </div>
+                              </div>
+                              
+                              <div class="row">
+                                <div class="column" style="background-color:#ccc;" id="finding">
+                                  <h2>Finding</h2>
+                                  <p>Some text..</p>
+                                </div>
+                                <div class="column" style="background-color:#ddd;" id="advice">
+                                  <h2>Advice</h2>
+                                  <p>Some text..</p>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="column" style="background-color:#aaa;" id="history">
+                                  <h2>History</h2>
+                                  <p>Some text..</p>
+                                </div>
+                                <div class="column" style="background-color:#bbb;" id="followup">
+                                  <h2>Followup</h2>
+                                  <p>Some text..</p>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="column" style="background-color:#ccc;" id="investigation">
+                                  <h2>Investigation</h2>
+                                  <p>Some text..</p>
+                                </div>
+                                <div class="column" style="background-color:#ddd;"  id="referral">
+                                  <h2>Referral</h2>
+                                  <p>Some text..</p>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="column" style="background-color:#aaa;" id="diagnosis">
+                                  <h2>diagnosis</h2>
+                                  <p>Some text..</p>
+                                </div>
+                                <div class="column" style="background-color:#bbb;"  id="referral">
+                                    <h2>Referral</h2>
+                                    <p>Some text..</p>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <aside class="col-2 px-0 fixed-right right-sidebar" id="right">
+                <div class="list-group w-100">
+                    <a href="#" class="list-group-item active">Link</a>
+                    <a href="#" class="list-group-item">Link</a>
+                    <a href="#" class="list-group-item">Link</a>
+                    <a href="#" class="list-group-item">Link</a>
+                    <a href="#" class="list-group-item">Link</a>
+                    <a href="#" class="list-group-item">Link</a>
+                    <a href="#" class="list-group-item">Link</a>
+                    <a href="#" class="list-group-item">Link</a>
+                    <a href="#" class="list-group-item">Link</a>
+                    <a href="#" class="list-group-item">Link</a>
+                </div>
+    
+            </aside>
+        </div>
+    </div>
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+        
+        // Declare a loop variable
+        var i;
+        
+        // List View
+        function listView() {
+          for (i = 0; i < elements.length; i++) {
+            elements[i].style.width = "100%";
+          }
+        }
+        
+        // Grid View
+        function gridView() {
+          for (i = 0; i < elements.length; i++) {
+            elements[i].style.width = "50%";
+          }
+        }
+        
+        /* Optional: Add active class to the current button (highlight it) */
+        var container = document.getElementById("btnContainer");
+        var btns = container.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
+</body>
+</html>
