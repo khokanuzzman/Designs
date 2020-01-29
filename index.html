@@ -14,35 +14,37 @@
 
 <body>
 
-        <div class="header-nav fixed-top text-center small bg-info" id="header">
-          <a class="text-white" href="#"><i class="fa fa-phone mr-1"></i>013-13085865 <i class="fa fa-phone mr-1"></i>017-30045488</a> <a class="text-white" href="#"><i class="fa fa-envelope mr-1"></i>support@jotno.net</a> 
-        <nav class="navbar navbar-expand-lg bg-dark border-0 shadow"  id="navbar">
-          <a class="navbar-brand font-bold" href="#">Jotno</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
-            aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSuapportedContent-4">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Contact <span
-                    class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-gear"></i> Settings</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Profile </a>
-                <div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
-                  <a class="dropdown-item" href="#">My account</a>
-                  <a class="dropdown-item" href="#">Log out</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        </div>
+  <div class="header-nav fixed-top text-center small bg-info" id="header">
+    <a class="text-white" href="#"><i class="fa fa-phone mr-1"></i>013-13085865 <i
+        class="fa fa-phone mr-1"></i>017-30045488</a> <a class="text-white" href="#"><i
+        class="fa fa-envelope mr-1"></i>support@jotno.net</a>
+    <nav class="navbar navbar-expand-lg bg-dark border-0 shadow" id="navbar">
+      <a class="navbar-brand font-bold" href="#">Jotno</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+        aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSuapportedContent-4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Contact <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-gear"></i> Settings</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Profile </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-cyan" aria-labelledby="navbarDropdownMenuLink-4">
+              <a class="dropdown-item" href="#">My account</a>
+              <a class="dropdown-item" href="#">Log out</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   <div class="container-fluid">
     <div class="row">
       <aside class="col-2 px-0 fixed-left left-sidebar" id="left">
@@ -61,7 +63,7 @@
       </aside>
       <main class="col offset-2 h-100 col-xs-offset-right-2 mt-5">
         <div class="row bg-white mt-5">
-          <div class="col-12 pb-4">
+          <div class="col-12 p-0">
             <div class="row">
               <div class="col-12">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -93,239 +95,281 @@
                   </div>
                 </nav>
               </div>
-            <!-- new patient form -->
-                <div class="col-12 mb-2">
-                      <form class="form-inline w-100 border border-warning rounded p-2  bg-info">
-                          <div class="form-group w-100">
-                            <div class="input-group mr-1">
-                              <div class="input-group-prepend">
-                                <div class="input-group-text"><i class="fa fa-user"></i></div>
-                              </div>
-                              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-                            </div>
-                            <div class="input-group mr-1">
-                              <div class="input-group-prepend">
-                                <div class="input-group-text"><i class="fa fa-phone"></i></div>
-                              </div>
-                              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Phone">
-                            </div>
-                            <div class="btn-group mr-1" role="group">
-                              <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle p-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Male
-                              </button>
-                              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                <a class="dropdown-item" href="#">Dropdown link</a>
-                                <a class="dropdown-item" href="#">Dropdown link</a>
-                              </div>
-                            </div>
-                            <input type="text" placeholder="Age" class="form-control mr-1" name="pswd">
-                            <div class="form-group">
-                              <a class="btn btn-default btn-sm p-2 mr-1">Register</a>
-                              <a class="btn btn-default btn-sm p-2" data-target="#offSiteMeeting" data-toggle="collapse" aria-pressed="false" autocomplete="off" aria-controls="offSiteMeeting">more</a>
-                            </div>  
-                          </div>
-                          <div class="collapse" id="offSiteMeeting">
-                          <div class="form-inline">
-                              <input type="text" placeholder="Demographi" class="form-control" name="pswd">
-                              <input type="email" placeholder="Username" class="form-control" id="email" name="Username"> 
-                              <input type="number" placeholder="phone Number" class="form-control" id="pwd" name="pswd">
-                            </div><!-- close well -->
-                          </div><!-- close collapse -->
-                      </form>
-              </div>
             </div>
-            <div id="btnContainer" class="row">
-              <div class="col-8 col-md-6 col-lg-8">
-                  <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
-                  <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
-              </div>
-              <div class="col-4 col-md-6 col-lg-4">
-                <input class="form-control mr-sm-2 typeahead tt-query" autocomplete="off"
-                        spellcheck="false" type="search" placeholder="Patient Search" aria-label="Search" id="selector">
-              </div>
-            </div>
-            <br>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="column" style="background-color:#aaa;" id="complaint">
-                  <div class="row">
-                    <div class="col">
-                      <h4>Complaint</h4>
-                    </div>
-                    <div class="col">
-                      <input class="form-control mr-sm-2 p-0 w-100 typeahead tt-query" autocomplete="off"
-                        spellcheck="false" type="search" placeholder="Search" aria-label="Search" id="selector">
-                    </div>
-                    <div class="col text-right">
-                      <a data-toggle="collapse" class="badge badge-info" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-eraser"></i></a>
-                      <a data-toggle="collapse" class="badge badge-info" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-object-group"></i></a>
-                      <a data-toggle="collapse" class="badge badge-info" href="#collapseFav" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-star"></i></a>
-                    </div>
+          </div>
+          <!-- new patient form -->
+          <div class="col-12 mb-2 p-0">
+            <form class="form-inline w-100 border border-warning rounded p-2  bg-info font11">
+              <div class="form-group w-100">
+                <div class="input-group mr-1 w-25">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text font11"><i class="fa fa-user"></i></div>
                   </div>
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="collapse" id="collapseExample">
-                        <div class="card card-body">
-                          Group list
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="collapse" id="collapseFav">
-                        <div class="bg-light rounded card-body inline-block">
-                          <p class="m-0">Favourite</p>
-                          <a href="#" class="badge badge-secondary">List One</a>
-                          <a href="#" class="badge badge-secondary">List One</a>
-                          <a href="#" class="badge badge-secondary">List One</a>
-                        </div>
-                      </div>
-                    </div>
+                  <input type="text" class="form-control font11" id="inlineFormInputGroup" placeholder="Username">
+                </div>
+                <div class="input-group mr-1 w-25">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-phone font11"></i></div>
                   </div>
-                  <ul class="list-unstyled ">
-                    <!-- complaint list -->
-                    <li class="position-relative list-group-flush ">
-                        <table>
-                          <tbody>
-                            <tr>
-                              <th class="w-45" scope="row">list one</th>
-                              <td class="w-15">
-                                <input class="form-control h-100 rounded-0" type="number" value="42"
-                                  id="example-number-input"></td>
-                              <td class="w-20">
-                                <div class="form-group m-0 ">
-                                  <select class="form-control h-100 rounded-0" id="exampleFormControlSelect1">
-                                    <option>Duration</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                  </select>
-                                </div>
-                              </td>
-                              <td>
-                                <textarea class="form-control rounded-0 pb-0" placeholder="note"
-                                id="exampleFormControlTextarea1" rows="1"></textarea></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <span class="crossbtn badge badge-secondary">
-                          &#10006;
-                        </span>
-                    </li>
-                    <!-- /complaint list -->
-                  </ul>
-                  <div class="row">
-                    <div class="col-8 col-lg-8 col-sm-6">                      <div class="input-group">
-                        <input type="text" class="form-control" placeholder="name...">
-                        <input type="text" class="form-control" placeholder="code...">
-                        <div class="input-group-append">
-                          <span class="input-group-text" id="basic-addon2">Save Group</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-4 col-lg-4 col-sm-6">
-                      <input class="form-control typeahead tt-query"  autocomplete="off"
-                        spellcheck="false" type="search" placeholder="Type Group name…" id="selector">
-                    </div>
+                  <input type="text" class="form-control font11" id="inlineFormInputGroup" placeholder="Phone">
+                </div>
+                <div class="btn-group mr-1 w-10 font11" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle p-2 font11" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Male
+                  </button>
+                  <div class="dropdown-menu font11" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Female</a>
+                    <a class="dropdown-item" href="#">Unknown</a>
+                    <a class="dropdown-item" href="#">Other</a>
                   </div>
                 </div>
-                <div class="column" style="background-color:#bbb;" id="medication">
-                  <h2>Medication</h2>
-                  <p>Some text..</p>
+                <div class="input-group mr-1 w-15">
+                  <input type="text" class="form-control font11" placeholder="age">
                 </div>
-              </div>
 
-              <div class="row">
-                <div class="column" style="background-color:#ccc;" id="finding">
-                  <h2>Finding</h2>
-                  <p>Some text..</p>
+                <div class="form-group w-10 font11">
+                  <a class="btn btn-default btn-sm p-2 mr-1 font11">Register</a>
+                  <a class="btn btn-default btn-sm p-2 font11" data-target="#offSiteMeeting" data-toggle="collapse"
+                    aria-pressed="false" autocomplete="off" aria-controls="offSiteMeeting"><i
+                      class="fa fa-arrow-down"></i></a>
                 </div>
-                <div class="column" style="background-color:#ddd;" id="advice">
-                  <h2>Advice</h2>
-                  <p>Some text..</p>
+                <div class="collapse mt-1 font11" id="offSiteMeeting">
+                  <div class="form-inline">
+                    <div class="btn-group mr-1 w-10" role="group">
+                      <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle p-2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        blood group
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="dropdown-item" href="#">A+</a>
+                        <a class="dropdown-item" href="#">B+</a>
+                        <a class="dropdown-item" href="#">A-</a>
+                        <a class="dropdown-item" href="#">B-</a>
+                        <a class="dropdown-item" href="#">AB+</a>
+                        <a class="dropdown-item" href="#">AB-</a>
+                      </div>
+                    </div>
+                    <input type="text" placeholder="Demographi" class="form-control mr-1 w-25" name="Demographi">
+                    <input type="email" placeholder="Email" class="form-control mr-1 w-25" id="email" name="Username">
+                    <div class="btn-group mr-1 w-10" role="group">
+                      <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle p-2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Occupation
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="dropdown-item" href="#">Office</a>
+                        <a class="dropdown-item" href="#">Doctor</a>
+                        <a class="dropdown-item" href="#">Other</a>
+                      </div>
+                    </div>
+                  </div><!-- close well -->
+                  <div class="form-inline mt-1 mb-1">
+                    <input type="text" placeholder="Father" class="form-control mr-1 w-25" name="Demographi">
+                    <input type="text" placeholder="Mother" class="form-control mr-1 w-25" id="email" name="Username">
+                    <input type="text" placeholder="Spouse" class="form-control mr-1 w-25" id="email" name="Username">
+
+                  </div><!-- close well -->
+                </div><!-- close collapse -->
+            </form>
+          </div>
+
+          <div id="btnContainer" class="row">
+            <div class="col-8 col-md-6 col-lg-8">
+              <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+              <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+            </div>
+            <div class="col-4 col-md-6 col-lg-4">
+              <input class="form-control mr-sm-2 typeahead tt-query" autocomplete="off" spellcheck="false" type="search"
+                placeholder="Patient Search" aria-label="Search" id="selector">
+            </div>
+          </div>
+          <br>
+          <div class="container-fluid small">
+            <div class="row">
+              <div class="column" style="background-color:#aaa;" id="complaint">
+                <div class="row">
+                  <div class="col">
+                    <p class="font-weight-bold">Complaint</p>
+                  </div>
+                  <div class="col">
+                    <input class="form-control mr-sm-2 p-0 w-100 typeahead tt-query" autocomplete="off"
+                      spellcheck="false" type="search" placeholder="Search" aria-label="Search" id="selector">
+                  </div>
+                  <div class="col text-right">
+                    <a data-toggle="collapse" class="badge badge-info" href="#collapseExample" role="button"
+                      aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-eraser"></i></a>
+                    <a data-toggle="collapse" class="badge badge-info" href="#collapseExample" role="button"
+                      aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-object-group"></i></a>
+                    <a data-toggle="collapse" class="badge badge-info" href="#collapseFav" role="button"
+                      aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-star"></i></a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="collapse" id="collapseExample">
+                      <div class="card card-body">
+                        Group list
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="collapse" id="collapseFav">
+                      <div class="bg-light rounded card-body inline-block">
+                        <p class="m-0">Favourite</p>
+                        <a href="#" class="badge badge-secondary">List One</a>
+                        <a href="#" class="badge badge-secondary">List One</a>
+                        <a href="#" class="badge badge-secondary">List One</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <ul class="list-unstyled ">
+                  <!-- complaint list -->
+                  <li class="position-relative list-group-flush ">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <th class="w-45" scope="row">list one</th>
+                          <td class="w-15">
+                            <input class="form-control h-100 rounded-0" type="number" value="42"
+                              id="example-number-input"></td>
+                          <td class="w-20">
+                            <div class="form-group m-0 ">
+                              <select class="form-control h-100 rounded-0" id="exampleFormControlSelect1">
+                                <option>Duration</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                          </td>
+                          <td>
+                            <textarea class="form-control rounded-0 pb-0" placeholder="note"
+                              id="exampleFormControlTextarea1" rows="1"></textarea></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <span class="crossbtn badge badge-secondary">
+                      &#10006;
+                    </span>
+                  </li>
+                  <!-- /complaint list -->
+                </ul>
+                <div class="row">
+                  <div class="col-8 col-lg-8 col-sm-6">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="name...">
+                      <input type="text" class="form-control" placeholder="code...">
+                      <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">Save Group</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-4 col-sm-6">
+                    <input class="form-control typeahead tt-query" autocomplete="off" spellcheck="false" type="search"
+                      placeholder="Type Group name…" id="selector">
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="column" style="background-color:#aaa;" id="history">
-                  <h2>History</h2>
-                  <p>Some text..</p>
-                </div>
-                <div class="column" style="background-color:#bbb;" id="followup">
-                  <h2>Followup</h2>
-                  <p>Some text..</p>
-                </div>
+              <div class="column" style="background-color:#bbb;" id="medication">
+                <h2>Medication</h2>
+                <p>Some text..</p>
               </div>
-              <div class="row">
-                <div class="column" style="background-color:#ccc;" id="investigation">
-                  <h2>Investigation</h2>
-                  <p>Some text..</p>
-                </div>
-                <div class="column" style="background-color:#ddd;" id="referral">
-                  <h2>Referral</h2>
-                  <p>Some text..</p>
-                </div>
+            </div>
+
+            <div class="row">
+              <div class="column" style="background-color:#ccc;" id="finding">
+                <h2>Finding</h2>
+                <p>Some text..</p>
               </div>
-              <div class="row">
-                <div class="column" style="background-color:#aaa;" id="diagnosis">
-                  <h2>diagnosis</h2>
-                  <p>Some text..</p>
-                </div>
-                <div class="column" style="background-color:#bbb;" id="referral">
-                  <h2>Referral</h2>
-                  <p>Some text..</p>
-                </div>
+              <div class="column" style="background-color:#ddd;" id="advice">
+                <h2>Advice</h2>
+                <p>Some text..</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column" style="background-color:#aaa;" id="history">
+                <h2>History</h2>
+                <p>Some text..</p>
+              </div>
+              <div class="column" style="background-color:#bbb;" id="followup">
+                <h2>Followup</h2>
+                <p>Some text..</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column" style="background-color:#ccc;" id="investigation">
+                <h2>Investigation</h2>
+                <p>Some text..</p>
+              </div>
+              <div class="column" style="background-color:#ddd;" id="referral">
+                <h2>Referral</h2>
+                <p>Some text..</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column" style="background-color:#aaa;" id="diagnosis">
+                <h2>diagnosis</h2>
+                <p>Some text..</p>
+              </div>
+              <div class="column" style="background-color:#bbb;" id="referral">
+                <h2>Referral</h2>
+                <p>Some text..</p>
               </div>
             </div>
           </div>
         </div>
-      </main>
-      <aside class="col-2 px-0 fixed-right h-100 pb-5" style="overflow-y:scroll;
+    </div>
+    </main>
+    <aside class="col-2 px-0 fixed-right h-100 pb-5" style="overflow-y:scroll;
     overflow-x:hidden;" id="right">
-        <div class="list-group w-100 right-sidebar pb-5">
-          <div class="list-group-item  bg-info" href="#">
-            <p class="h5 text-white">Complaints: </p>
-            <ol class="list-group list-group-flush test rounded">
+      <div class="list-group w-100 right-sidebar pb-5">
+        <div class="list-group-item  bg-info" href="#">
+          <p class="h5 text-white">Complaints: </p>
+          <ol class="list-group list-group-flush test rounded">
             <li class="list-group-item">Cras justo odio</li>
             <li class="list-group-item">Dapibus ac facilisis in</li>
             <li class="list-group-item">Morbi leo risus</li>
             <li class="list-group-item">Porta ac consectetur ac</li>
             <li class="list-group-item">Vestibulum at eros</li>
           </ol>
-          </div>
-          <div class="list-group-item  bg-info" href="#">
-            <p class="h5 text-white">Findings:  </p>
-            <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-          </div>
-          <div class="list-group-item bg-info" href="#">
-            <p class="h5 text-white">History:  </p>
-            <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-          </div>
-                    <div class="list-group-item bg-info" href="#">
-            <p class="h5 text-white">History:  </p>
-            <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-          </div>
         </div>
-        
-      </aside>
-    </div>
+        <div class="list-group-item  bg-info" href="#">
+          <p class="h5 text-white">Findings: </p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+        <div class="list-group-item bg-info" href="#">
+          <p class="h5 text-white">History: </p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+        <div class="list-group-item bg-info" href="#">
+          <p class="h5 text-white">History: </p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+      </div>
+
+    </aside>
+  </div>
   </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
